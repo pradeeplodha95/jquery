@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        div{
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quisquam soluta quia? Cupiditate dignissimos consequuntur corrupti reprehenderit quaerat vel nesciunt at eos iure eveniet commodi nam repellendus minima, labore perspiciatis.</div>
+    <button>dfg</button>
+    <!-- <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").remove()
+                // $("div").empty()
+            })
+        })
+    </script> -->
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                // $("div").remove()
+                $("div").empty()
+                // $("div").hide()
+
+          $("button").click(function(){
+                // $("div").remove()
+                $("div").css({"background-color": "red","font-size": "50px",})
+                
+            })    
+            })
+        })
+    </script>
+</body>
+</html>
